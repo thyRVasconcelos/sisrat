@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #7498f1;
+  background-image: url(../img/background1.jpg);
 }
 
 .container {
@@ -28,13 +28,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #b4f8ff8f;
+
   padding: 1rem;
+  background-color: transparent;
+  backdrop-filter: blur(55px);
   border-radius: 10px 0 0 10px;
 }
 
 .logo img {
-  width: 30rem;
+  width: 25rem;
 }
 
 .form {
@@ -43,7 +45,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: transparent;
+  backdrop-filter: blur(55px);
   padding: 3rem;
   border-radius: 0 10px 10px 0;
 }
@@ -106,16 +109,15 @@ body {
   color: #000000be;
 }
 
-
 @media screen and (max-width: 1330px) {
   .logo {
-    display: none;
+    display: 50%;
   }
   .container {
-    width: 50%;
+    width: 100%;
   }
   .form {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -132,5 +134,4 @@ body {
     overflow-y: scroll;
     flex-wrap: nowrap;
   }
- 
 }
