@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   height: 80vh;
   display: flex;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .form {
-  width: auto;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,24 +113,29 @@ body {
     display: 40%;
   }
   .container {
-    width: 90%;
+    width: 80%;
   }
   .form {
-    width: auto;
+    width: 60%;
   }
 }
 
 @media screen and (max-width: 1064px) {
   .container {
     width: 90%;
-    height: auto;
   }
   .input-group {
     flex-direction: column;
     z-index: 5;
     padding-right: 5rem;
-    max-height: 10rem;
+    max-height: 30rem;
     overflow-y: scroll;
     flex-wrap: nowrap;
+  }
+  .logo {
+    display: none;
+  }
+  .form {
+    width: 100%;
   }
 }
