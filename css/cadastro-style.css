@@ -98,7 +98,7 @@ select {
   outline: 1px solid #6c63ff;
 }
 
-.input-box label,{
+.input-box label{
   font-size: 0.75rem;
   font-weight: 600;
   color: #000000c0;
