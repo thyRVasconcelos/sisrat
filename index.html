@@ -1,123 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Sistema de Ramais DNOCS</title>
-  </head>
-  <body>
+    <title>SISRAT - Sistema de Ramais</title>
+</head>
+
+<body>
     <div class="container">
-      <div class="logo">
-        <img src="img/LogoDNOCS.png" alt="LogoDNOCS" />
-      </div>
+        <div class="logo">
+            <img src="img/LogoDNOCS.png" alt="LogoDNOCS" />
+        </div>
 
-      <!-- div referente ao formulario-->
-      <div class="form">
-        <form action="#" method="post">
-          <div class="form-header">
-            <div class="title">
-              <h1>Sistema de Ramais DNOCS</h1>
-            </div>
-          </div>
-          <div class="input-group">
-            <div class="input-box">
-              <label for="name">Nome</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Digite o nome"
-                required
-              />
-            </div>
+        <!-- div referente ao formulario-->
+        <div class="form">
+            <form action="#" method="post">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Sistema de Ramais</h1>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Login</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu login" required />
+                    </div>
 
-            <!--inputs referente aos contatos-->
-            <div class="input-box">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Digite o e-mail do usuário"
-                required
-              />
-            </div>
+                    <div class="input-box">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required />
+                    </div>
+                </div>
 
-            <div class="input-box">
-              <label for="fone">Telefone</label>
-              <input
-                type="tel"
-                id="fone"
-                name="fone"
-                placeholder="(xx) xxxx-xxxx"
-                required
-                pattern="[0-9]{2} [0-9]{4}-[0-9]{4}"
-              />
-            </div>
 
-            <div class="input-box">
-              <label for="ramal">Ramal</label>
-              <input
-                type="tel"
-                id="ramal"
-                name="ramal"
-                placeholder="xxxx"
-                required
-                pattern="[0-9]{4}"
-              />
-            </div>
-
-            <!-- inputs referente a locação-->
-            <div class="input-box">
-              <label for="setor">Setor</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Digite o nome do setor"
-                required
-              />
-            </div>
-
-            <div class="input-box">
-              <label for="andar">Andar</label>
-              <select name="andar" id="andar">
-                <option value>-</option>
-                <option value="terreo">Térreo</option>
-                <option value="1">1° Andar</option>
-                <option value="4">4° Andar</option>
-                <option value="5">5° Andar</option>
-                <option value="6">6° Andar</option>
-                <option value="7">7° Andar</option>
-                <option value="8">8° Andar</option>
-                <option value="9">9° Andar</option>
-              </select>
-            </div>
-
-            <!--
-            <div class="input-box">
-              <input
-                type="radio"
-                id="und-admcentral"
-                name="unidade"
-                value="adm-Central"
-                required
-              />
-              <label for="name">Adm Central</label>
-              <input
-                type="radio"
-                id="und-cest"
-                name="unidade"
-                value="cest"
-                required
-              />
-              <label for="name">CEST</label>
-            </div>
-            -->
-          </div>
-        </form>
-      </div>
+                <div class="login-button">
+                    <button type="submit">Entrar</button>
+                </div>
+        </div>
+            </form>
+    
     </div>
-  </body>
+</body>
+
 </html>
