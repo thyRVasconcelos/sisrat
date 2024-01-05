@@ -29,7 +29,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: transparent;
+  background: 255, 255, 255, 0.3;
+  -webkit-backdrop-filter: blur(55px);
   backdrop-filter: blur(55px);
   border-radius: 10px 0 0 10px;
 }
@@ -44,7 +45,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
+  background: 255, 255, 255, 0.3;
+  -webkit-backdrop-filter: blur(55px);
   backdrop-filter: blur(55px);
   padding: 3rem;
   border-radius: 0 10px 10px 0;
@@ -82,6 +84,8 @@ body {
 
 .input-box input,
 select {
+  color: #000000be;
+  background-color:#c0c0c00b ;
   margin: 0.6rem 0;
   padding: 0.8rem 1.2rem;
   border: none;
@@ -96,12 +100,15 @@ select {
 
 .input-box input:focus-visible {
   outline: 1px solid #6c63ff;
+  background-color: #ffffff64;
+  color: #000000c0;
+
 }
 
 .input-box label{
   font-size: 0.75rem;
   font-weight: 600;
-  color: #000000c0;
+  color: #;
 }
 
 .input-box input::placeholder {
