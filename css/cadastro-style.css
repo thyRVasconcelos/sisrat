@@ -13,10 +13,13 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url(../img/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   height: 80vh;
   display: flex;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
@@ -36,7 +39,7 @@ body {
 }
 
 .logo img {
-  width: 36rem;
+  width: 70%;
 }
 
 .form {
@@ -85,7 +88,7 @@ body {
 .input-box input,
 select {
   color: #000000be;
-  background-color:#c0c0c00b ;
+  background-color: #c0c0c00b;
   margin: 0.6rem 0;
   padding: 0.8rem 1.2rem;
   border: none;
@@ -102,10 +105,9 @@ select {
   outline: 1px solid #6c63ff;
   background-color: #ffffff64;
   color: #000000c0;
-
 }
 
-.input-box label{
+.input-box label {
   font-size: 0.75rem;
   font-weight: 600;
   color: #;
@@ -125,11 +127,10 @@ select {
   display: flex;
   justify-content: space-around;
   margin-top: 0.62rem;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 
-button{
-  
+button {
   margin: 0.6rem 0;
   padding: 0.8rem 1.2rem;
   border: none;
@@ -137,12 +138,14 @@ button{
   box-shadow: 1px 1px 6px #0000001c;
   font-size: 0.8rem;
   background-color: transparent;
-  backdrop-filter: blur(55px);  color: #000000ca;
+  backdrop-filter: blur(55px);
+  color: #000000ca;
 }
 
 .form-button button:hover {
-  background-color: #eeeeeead;}
-/*
+  background-color: #eeeeeead;
+}
+
 @media screen and (max-width: 1330px) {
   .logo {
     display: 40%;
@@ -172,4 +175,5 @@ button{
   }
   .form {
     width: 100%;
-  }*/
+  }
+}

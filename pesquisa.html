@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/cadastro-style.css" />
+    <link rel="stylesheet" href="css/pesquisa-style.css" />
     <title>SISRAT - Sistema de Ramais</title>
   </head>
   <body>
@@ -12,7 +12,6 @@
         <img src="img/LogoDNOCS.png" alt="LogoDNOCS" />
       </div>
 
-      <!-- div referente ao formulario-->
       <div class="form">
         <form action="#" method="post">
           <div class="form-header">
@@ -32,8 +31,6 @@
               />
             </div>
 
-            <!--inputs referente aos contatos-->
-            
             <div class="input-box">
               <label for="ramal">Ramal</label>
               <input
@@ -46,11 +43,10 @@
               />
             </div>
 
-            <!-- inputs referente a locação-->
             <div class="input-box">
               <label for="andar">Setor</label>
               <select name="andar" id="andar" required>
-                <option >-</option>
+                <option>-</option>
                 <option value="DA/DRL/STI">DA/DRL/STI</option>
                 <option value="DA">DA</option>
                 <option value="DA/DRL">DA/DRL</option>
@@ -65,7 +61,7 @@
             <div class="input-box">
               <label for="andar">Andar</label>
               <select name="andar" id="andar" required>
-                <option >-</option>
+                <option>-</option>
                 <option value="terreo">Térreo</option>
                 <option value="1">1° Andar</option>
                 <option value="4">4° Andar</option>
@@ -98,16 +94,20 @@
             </div>
             -->
           </div>
-          <div class="button-group">
-            <div class="form-button">
+          <div class="form-button">
+              <div class="button-group">
               <div class="exit-button">
-                <button type="submit">Sair</button>
+                <button type="submit"><a href="index.html">Sair</a></button>
               </div>
               <div class="seach-button">
-                <button type="submit">Pesquisar</button>
+                <button type="submit">
+                  <a href="pesquisa.html">Pesquisar</a>
+                </button>
               </div>
               <div class="clear-button">
-                <button type="submit"></button>
+                <button type="submit">
+                  <a href="cadastro.html">Cadastrar</a>
+                </button>
               </div>
             </div>
           </div>

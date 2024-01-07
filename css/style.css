@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 70%;
+  width: 90%;
   height: 80vh;
   display: flex;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
@@ -118,6 +118,7 @@ body {
   border-radius: 10px;
   box-shadow: 1px 1px 6px #0000001c;
   font-size: 0.8rem;
+  width: 100%;
 }
 
 .input-box input:hover {
